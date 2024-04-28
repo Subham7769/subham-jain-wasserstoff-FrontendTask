@@ -32,25 +32,25 @@ const EventView = () => {
                     <h1>Event Name</h1>
                     <div className='eventDetails'>
                         <div className='location'><img src={location} alt="" /></div>
-                        <p>Venue</p>
+                        <span>Venue</span>
                         <div className='location'><img src={alarm} alt="" /></div>
-                        <p>04/3/2024 @19:00</p>
+                        <span>04/3/2024 @19:00</span>
                     </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur. Ac lorem massa in morbi et sed ipsum. Pellentesque mattis condimentum ut nulla.
-                </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur. Ac lorem massa in morbi et sed ipsum. Pellentesque mattis condimentum ut nulla.
+                    </p>
                 </div>
                 <div className='ArtistView'>
                     <h3>Artist Lineup</h3>
-                    <div className='ArtistSlide'>
-                        <img src={back1} alt="" />
-                        <img src={backc} alt="" />
-                        <img src={back2} alt="" />
+                    <div className="ArtistSlide">
+                        <div><img src={back1} alt="Image 1" /></div>
+                        <div className="centered"><img src={backc} alt="Image 2" /></div>
+                        <div><img src={back2} alt="Image 3" /></div>
                     </div>
                 </div>
                 <div className='detailFooter'>
                     <img src={qr} alt="" />
-                    <Button variant="contained" style={{ borderRadius: 30, backgroundColor:'gold', color:'black', height:"2rem" }}>Join Waitlist</Button>
+                    <Button variant="contained" style={{ borderRadius: 30, backgroundColor: 'gold', color: 'black', height: "2rem" }}>Join Waitlist</Button>
                 </div>
             </div>
         </div>

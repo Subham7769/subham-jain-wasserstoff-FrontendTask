@@ -49,8 +49,7 @@ export default function Slider() {
       <div className="textContainer">
         <p>
             ASTR<br/>IX
-        </p>
-        <p>
+            <br/>
             EVE<br/>NTS
         </p>
       </div>
