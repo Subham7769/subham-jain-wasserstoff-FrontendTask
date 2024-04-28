@@ -4,7 +4,7 @@
   height: 100%;
   position: relative;
   justify-content: space-between;
-  background-color: rgba(21, 24, 27, 1);
+  background-color: #15181b;
 }
 .textContainer {
   position: absolute;
@@ -80,10 +80,10 @@
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background-color: pink;
+  background-color: #b9a0ff;
 }
 .strip p {
-  background-color: pink;
+  background-color: #b9a0ff;
   transform: rotate(90deg);
   transform-origin: left bottom;
   width: 100%;
