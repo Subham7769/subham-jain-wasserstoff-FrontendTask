@@ -22,7 +22,6 @@
 .Frontline{
     width: 75vw;
     height: 70vh;
-    border: 5px solid red;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -33,4 +32,26 @@
 
 .Frontline>span> img{
  height: 38px;
+}
+
+@keyframes imageWidthLoop {
+  0% {
+    width: 20%;  /* Start with 20% */
+  }
+  25% {
+    width: 25%;  /* Increase to 50% */
+  }
+  50% {
+    width: 35%; /* Full width */
+  }
+  75% {
+    width: 30%;  /* Reduce to 70% */
+  }
+  100% {
+    width: 20%;  /* Loop back to 20% */
+  }
+}
+.Frontline img {
+  animation: imageWidthLoop 10s infinite; /* 10 seconds, infinite loop */
+  transition: all 1s; /* Smooth transitions */
 }
