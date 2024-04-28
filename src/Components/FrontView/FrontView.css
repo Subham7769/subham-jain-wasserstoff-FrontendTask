@@ -34,24 +34,24 @@
  height: 38px;
 }
 
-@keyframes imageWidthLoop {
+@keyframes clipRightToLeft {
   0% {
-    width: 20%;  
+    clip-path: inset(0 80% 0 0); /* Start with 20% width */
   }
   25% {
-    width: 25%;  
+    clip-path: inset(0 50% 0 0); /* Expand to 50% width */
   }
   50% {
-    width: 35%; 
+    clip-path: inset(0 0 0 0); /* Fully visible (100% width) */
   }
   75% {
-    width: 30%;  
+    clip-path: inset(0 30% 0 0); /* Reduce to 70% width */
   }
   100% {
-    width: 20%;  
+    clip-path: inset(0 80% 0 0); /* Back to 20% width */
   }
 }
 .Frontline img {
-  animation: imageWidthLoop 10s infinite; /* 10 seconds, infinite loop */
+  animation: clipRightToLeft 10s infinite; /* Looping animation */
   transition: all 1s; /* Smooth transitions */
 }
