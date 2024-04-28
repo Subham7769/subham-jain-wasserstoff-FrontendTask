@@ -1,9 +1,14 @@
 import React from 'react'
 import './App.css'
-import Slider from './Components/Slider/Slider'
+import EventView from './Components/EventView/EventView';
+import FrontView from './Components/FrontView/FrontView';
+
 const App = () => {
   return (
-    <Slider/>
+    <div className='container'>
+      <FrontView/>
+      {/* <EventView/> */}
+    </div>
   )
 }
 

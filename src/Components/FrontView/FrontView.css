@@ -1,0 +1,36 @@
+.Fronteview {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+  background-color: rgb(246, 189, 232);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 2rem;
+}
+.Frontline{
+    width: 75vw;
+    height: 70vh;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: xxx-large;
+    text-align: start;
+    letter-spacing: 5px;
+}
+
+.Frontline>span> img{
+ height: 38px;
+}

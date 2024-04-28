@@ -1,7 +1,11 @@
 #app {
     height: 100%;
   }
-  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   html,
   body {
     position: relative;
@@ -17,6 +21,11 @@
       sans-serif;
     font-size: 14px;
     color: #000;
-    margin: 0;
-    padding: 0;
+  }
+  .container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
