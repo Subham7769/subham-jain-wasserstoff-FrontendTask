@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Project Name
+Event Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Project Description]
+Event Explorer is a React-based web application designed to showcase upcoming events and performances. It features a sleek and interactive user interface with a navigable slider, clickable elements for transitioning between views, and a detailed event information page. Users can easily explore events, view artist lineups, and join waitlists for specific events. The project uses modern libraries like React Router for routing, Material-UI for UI components, and Swiper for an interactive carousel experience. Whether you're exploring for a future event or looking for artist information, Event Explorer provides an intuitive and engaging experience.
 
-## Available Scripts
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Project Structure](#project-structure)
+4. [Components](#components)
+5. [Dependencies](#dependencies)
+6. [License](#license)
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+To get started with the project, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/Subham7769/subham-jain-wasserstoff-FrontendTask
+   ```
 
-### `npm test`
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   cd subham-jain-wasserstoff-FrontendTask
+   ```
 
-### `npm run build`
+3. Install dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the development server:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To build the project for production:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the test suite:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm test
+```
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Here is an overview of the project structure:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **src**: Main source directory.
+  - **App.js**: Main React application component.
+  - **Components**: Contains the various React components.
+  - **Assets**: Contains images and other static assets.
+  - **Styles**: Global styles and CSS files.
+- **public**: Public static files and the main `index.html`.
+- **package.json**: Project configuration and dependencies.
 
-### Code Splitting
+## Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Below are the main components in this project:
 
-### Analyzing the Bundle Size
+- **App.js**: Defines the routing and application structure.
+- **FrontView.js**: A component that displays the front view and includes a clickable element to navigate.
+- **EventView.js**: Displays the event information, including a slider and event details.
+- **Slider.js**: A component for displaying slides using Swiper.
+- **SwitchComponent.js**: A switch with text using Material-UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Dependencies
 
-### Making a Progressive Web App
+This project uses the following key dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **React**: JavaScript library for building user interfaces.
+- **React Router DOM**: For routing and navigation within the application.
+- **Material-UI**: A popular React component library for UI elements.
+- **Swiper**: A modern slider/swiper library.
+- **Styled Components**: For component-based styling in React.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A full list of dependencies can be found in `package.json`.
