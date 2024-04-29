@@ -23,19 +23,19 @@ const Fronteview = () => {
           ORGANIZE THE CONNECTION
           <img className='img' src={tile2} alt="Tile 2" />
           <br />
-          <img className='img' src={tile3} alt="Tile 3" />
+          <img className='img2' src={tile3} alt="Tile 3" />
           BETWEEN
-          <img className='img2' src={tile4} alt="Tile 4" />
+          <img className='imgS' src={tile4} alt="Tile 4" />
           MUSIC
           <br />
           ARTIST
           <img className='img' src={tile5} alt="Tile 5" />
           CULTURE
-          <img className='img' src={tile6} alt="Tile 6" />
+          <img className='img2' src={tile6} alt="Tile 6" />
           <br />
           <img className='img' src={tile7} alt="Tile 7" />
           ART
-          <img className='img' src={tile8} alt="Tile 8" />
+          <img className='imgS' src={tile8} alt="Tile 8" />
           & COLLECTIONS
         </span>
       </div>

@@ -13,12 +13,12 @@ const TextSwitch = styled(Switch)(({ theme }) => ({
     transform: 'translateX(6px)', // Position when unchecked
     transition: 'transform 300ms', // Smooth transition
     '&.Mui-checked': {
-      transform: 'translateX(140px)', // Thumb moves 40% of 250px width
+      transform: 'translateX(120px)', // Thumb moves 40% of 250px width
       color: '#fff',
     },
   },
   '& .MuiSwitch-thumb': {
-    width: 100,
+    width: 120,
     height: 35,
     borderRadius: 25, // Rounded capsule shape
     display: 'flex',

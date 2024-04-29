@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import EventView from './Components/EventView/EventView';
 import FrontView from './Components/FrontView/FrontView';
-
+import './App.css'
 // Component that redirects on click
 const FrontViewRedirect = () => {
   const navigate = useNavigate(); // Hook for navigation

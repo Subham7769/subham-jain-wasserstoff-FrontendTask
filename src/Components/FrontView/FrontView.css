@@ -25,33 +25,54 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-size: xxx-large;
+    font-size: 4rem;
     text-align: start;
     letter-spacing: 5px;
 }
 
-.Frontline>span> img{
+.Frontline>span> .img,.imgS,.img2{
  height: 38px;
 }
 
 @keyframes clipRightToLeft {
   0% {
-    clip-path: inset(0 80% 0 0); /* Start with 20% width */
+    clip-path: inset(0 80% 0 0); 
   }
   25% {
-    clip-path: inset(0 50% 0 0); /* Expand to 50% width */
+    clip-path: inset(0 50% 0 0); 
   }
   50% {
-    clip-path: inset(0 0 0 0); /* Fully visible (100% width) */
+    clip-path: inset(0 0 0 0); 
   }
   75% {
-    clip-path: inset(0 30% 0 0); /* Reduce to 70% width */
+    clip-path: inset(0 30% 0 0); 
   }
   100% {
-    clip-path: inset(0 80% 0 0); /* Back to 20% width */
+    clip-path: inset(0 80% 0 0); 
   }
 }
-.Frontline img {
+@keyframes clipRightToLeft2 {
+  0% {
+    clip-path: inset(0 20% 0 0); 
+  }
+  25% {
+    clip-path: inset(0 50% 0 0); 
+  }
+  50% {
+    clip-path: inset(0 80% 0 0); 
+  }
+  75% {
+    clip-path: inset(0 30% 0 0); 
+  }
+  100% {
+    clip-path: inset(0 0 0 0); 
+  }
+}
+.Frontline .img {
   animation: clipRightToLeft 10s infinite; /* Looping animation */
+  transition: all 1s; /* Smooth transitions */
+}
+.Frontline .img2 {
+  animation: clipRightToLeft2 10s infinite; /* Looping animation */
   transition: all 1s; /* Smooth transitions */
 }

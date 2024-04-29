@@ -15,7 +15,7 @@
   flex-direction: column;
   color: white;
   padding: 1rem;
-  gap: 0.7rem;
+  justify-content: space-around;
 }
 
 .logoContainer {
@@ -42,6 +42,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  gap: 1rem;
 }
 .ArtistView {
   display: flex;
@@ -57,12 +58,12 @@ align-self: self-start;
   align-items: center;
 }
 .ArtistSlide >div {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .ArtistSlide >div:nth-child(2){
-    width: 125px;
-    height: 125px;
+    width: 105px;
+    height: 105px;
 }
 .ArtistSlide >div> img {
     width: 100%; 
